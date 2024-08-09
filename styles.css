@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #f7f4f4;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    color: #020202;
+    margin: 5px 0 20px;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin: 10px 0;
+}
+
+.link-list a {
+    display: block;
+    padding: 15px;
+    background-color: #01d6fc;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 51px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+
+}
+
+.link-list a:hover {
+    background-color: rgba(253, 187, 45, 0.781);
+}
+
+footer {
+    margin-top: 20px;
+    color: #888;
+}
+
+/*Midia Queries*/
+
+@media(max-width:600px){
+    .profile-img{
+        width:100px;
+        height:100px;
+    }
+
+    h1{
+        font-size:20px;
+    }
+
+    .link-list a{
+        font-size:16px;
+        padding:12px;
+    }
+}
