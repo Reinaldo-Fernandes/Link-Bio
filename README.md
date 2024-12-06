@@ -26,10 +26,3 @@ header: Estiliza a imagem de perfil com bordas arredondadas e uma borda ao redor
 .link-list: Remove a estilização padrão da lista e estiliza cada link como um bloco com padding, cor de fundo e bordas arredondadas. Adiciona uma transição para o efeito hover.
 footer: Centraliza o texto e define uma cor mais suave.
 Media Queries: Ajusta o layout em telas menores, garantindo que a página seja responsiva.
-
-## Personalização
-Para personalizar a página com suas próprias informações:
-
-Substitua a imagem de perfil (Neto.jpg) por uma imagem sua.
-Atualize o título (<h1>Reinaldo</h1>) e a descrição breve (<p>Uma breve descrição sobre você</p>).
-Edite os links na lista (<ul class="link-list">) para apontar para suas redes sociais e serviços.
